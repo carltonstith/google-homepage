@@ -1,0 +1,15 @@
+.appLauncher {
+			width: 20px;
+			height: 20px;
+		}
+		.google {
+			width: 300px;
+			height: 115px;
+			margin-top: 175px;
+			padding-bottom: 25px;
+		}
+		article {
+			text-align: center;
+		}
+		.search {
+			width: 25em;
