@@ -3,19 +3,45 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Google</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style>
+		.appLauncher {
+			width: 20px;
+			height: 20px;
+		}
+		.google {
+			width: 300px;
+			height: 115px;
+			margin-top: 175px;
+			padding-bottom: 25px;
+		}
+		article {
+			text-align: center;
+		}
+		.search {
+			width: 25em;
+		}
+	</style>
 </head>
 <body>
 <div class="container">
-	<nav>
-		<p>Carlton</p>
-		<a href="#">Gmail</a>
-		<a href="#">Images</a>
-		<img src="#" alt="">
-		<a href="#">2</a>
-		<img src="#" alt="Google Account: Carlton Stith (carlton215@gmail.com)">
-	</nav>
+	<div class="row">
+	<div class="col-md-4 col-md-offset-10">
+		<nav>
+			<a href="#">Gmail</a>
+			<a href="#">Images</a>
+			<img src="img/app-launcher-150x150.png" alt="" class="appLauncher">
+			<button class="btn btn-primary">Sign in</button>
+		</nav>
+	</div>
+	</div>
 	<article>
-		<img src="img/googlelogo_color_272x92dp.png" alt="google.com">
+	<div class="row">
+		<img src="img/googlelogo_color_272x92dp.png" alt="google.com" class="google">
+		<form action="">
+			<input type="text" class="search">
+		</form>
+	</div>
 	</article>
 </div> <!-- end container div -->	
 </body>
