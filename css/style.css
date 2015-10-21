@@ -2,7 +2,16 @@ nav {
 	padding: 10px;
 }
 a {
-	padding: 10px;
+	padding: 5px 10px;
+	color: rgba(0,0,4,0.8);
+}
+
+a:hover {
+	color: rgba(0,0,4,0.8);
+}
+
+.gmail {
+	padding-left: 0;	
 }
 
 .appLauncher {
@@ -20,6 +29,10 @@ a {
 	font-weight: bold;
 }
 
+.btn-primary {
+	padding-left: 15px;
+}
+
 .google {
 	width: 300px;
 	height: 115px;
@@ -32,5 +45,23 @@ article {
 }
 
 .search {
-width: 25em;
+	width: 30em;
+	height: 34px;
+}
+
+.search-button {
+	margin: 35px;
+}
+
+.btn-success {
+	margin: 0 5px 0 5px;
+	background-color: rgba(222,222,222,0.42);
+	border-color: rgba(222,222,222,0.42);
+	color: #555;
+}
+
+.btn-success:hover {
+	background-color: rgba(222,222,222,0.42);
+	border-color: rgba(119,119,119,0.42);
+	color: #555;
 }
